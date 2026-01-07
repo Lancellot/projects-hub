@@ -135,3 +135,20 @@ footer img:hover {
             brightness(86%)
             contrast(88%);
 }
+
+.main_contato{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    width: 90%;
+    margin: 2rem auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+}
+
