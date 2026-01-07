@@ -117,3 +117,21 @@ footer section {
     gap: 1rem;
     margin: 1rem 0;
 }
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    transition: filter 0.3s;
+}
+
+footer img:hover {
+    filter: brightness(0)
+            saturate(100%)
+            invert(65%)
+            sepia(59%)
+            saturate(2437%)
+            hue-rotate(213deg)
+            brightness(86%)
+            contrast(88%);
+}
