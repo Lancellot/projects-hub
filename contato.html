@@ -1,19 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Projeto Portfólio">
     <meta name="author" content="Pâmela dos Reis | Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+    <link rel="icon" type="image/svg" href="./assets/img/favicon.svg">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Contato</title>
 </head>
 
 <body>
-    <header>
 
+    <header>
         <h1>Generation Brasil</h1>
 
         <nav>
@@ -22,26 +23,26 @@
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-
     </header>
 
+    <!-- MAIN empurra o footer -->
     <main class="main_contato">
 
-        <form action="#" method="submit" id="formulario">
+        <form action="#" method="post" id="formulario">
 
-            <label for="nome">Nome: </label>
-            <input id="name" type="text" name="name" placeholder="Digite seu nome" />
+            <label for="name">Nome:</label>
+            <input id="name" type="text" name="name" placeholder="Digite seu nome">
             <span id="errNome"></span>
 
-            <label for="email">Email: </label>
-            <input id="email" type="text" name="email" placeholder="Digite seu email" />
+            <label for="email">Email:</label>
+            <input id="email" type="email" name="email" placeholder="Digite seu email">
             <span id="errEmail"></span>
 
-            <label for="subject">Assunto: </label>
-            <input id="subject" type="text" name="subject" placeholder="Digite o assunto da mensagem" />
+            <label for="subject">Assunto:</label>
+            <input id="subject" type="text" name="subject" placeholder="Digite o assunto da mensagem">
             <span id="errSubject"></span>
 
-            <label for="message">Mensagem: </label>
+            <label for="message">Mensagem:</label>
             <textarea id="message" name="message" placeholder="Digite sua mensagem"></textarea>
 
             <button type="submit">Enviar</button>
@@ -55,42 +56,42 @@
             </address>
 
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1594056507065!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.106696296001!2d-46.65390548535577!3d-23.564611167596592!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7f481fd9f%3A0x9982bfde4df54830!2sAv.%20Paulista%2C%201000!5e0!3m2!1spt-BR!2sbr!4v1594056507065"
                 width="400"
                 height="250"
-                frameborder="0"
-                style="border: 0"
+                style="border:0;"
                 allowfullscreen=""
-                aria-hidden="false"
-                tabindex="0"
-                id="mapa"
-            ></iframe>
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
 
         </article>
-            
+
     </main>
 
     <footer>
 
-      <section>
-             <a href="https://www.linkedin.com/in/p%C3%A2mela-dos-reis/">
-                <img src="assets/img/linkedin.png" alt="Linkedin" />
+        <section>
+            <a href="https://www.linkedin.com/in/p%C3%A2mela-dos-reis/" target="_blank" rel="noopener">
+                <img src="assets/img/linkedin.png" alt="LinkedIn">
             </a>
 
-            <a href="https://github.com/pammyu?tab=overview&from=2025-09-01&to=2025-09-30">
-                <img src="assets/img/github.png" alt="Github">
-            </a>    
-            <a href="https://www.instagram.com/pamm.desi/">
-                <img src="assets/img/instagram.png" alt="Instagram" />
+            <a href="https://github.com/pammyu" target="_blank" rel="noopener">
+                <img src="assets/img/github.png" alt="GitHub">
             </a>
 
+            <a href="https://www.instagram.com/pamm.desi/" target="_blank" rel="noopener">
+                <img src="assets/img/instagram.png" alt="Instagram">
+            </a>
         </section>
 
         <h3>
-            Feito com ❤️ por Assis Pires Neto para a Generation Brasil &copy; - 2026.
+            Feito com ❤️ por Assis Pires Neto para a Generation Brasil &copy; 2026
         </h3>
 
-       </footer>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
