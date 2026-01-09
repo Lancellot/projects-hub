@@ -31,7 +31,7 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
 ```
 2. Abra o projeto no Visual Studio Code:
    ```bash
-   code seu-repositorio
+   code projects-hub
 ```
 3. No VSCode, abra um arquivo HTML do projeto (ex: `index.html`).
 4. Clique com o botão direito no editor e selecione **"Open with Live Server"**.  
