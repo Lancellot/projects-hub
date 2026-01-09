@@ -30,7 +30,7 @@ Para visualizar o projeto localmente, siga as instruções abaixo:
    git clone https://github.com/lancellot/projects-hub.git
 ```
 2. Abra o projeto no Visual Studio Code:
-   ```bash
+```
    code projects-hub
 ```
 3. No VSCode, abra um arquivo HTML do projeto (ex: `index.html`).
